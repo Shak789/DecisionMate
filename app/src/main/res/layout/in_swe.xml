@@ -25,33 +25,257 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.07" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05109489" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.16" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.155" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.28" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.275" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.41" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.395" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.61" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.515" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.635" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.79" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.76" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.21" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.96" />
+
     <TextView
         android:id="@+id/textview_first"
-        android:layout_width="436dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="55dp"
+        android:layout_width="0sp"
+        android:layout_height="0dp"
         android:fontFamily="@font/roboto_bold"
         android:gravity="center"
         android:text="POSt Grade Calculator"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="36sp"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeStepGranularity="2sp"
+        android:autoSizeTextType="uniform"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/my_toolbar" />
+        app:layout_constraintBottom_toBottomOf="@id/guideline3"
+        app:layout_constraintEnd_toEndOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/guideline"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/A67textInputLayout"
         style="@android:style/Holo.ButtonBar.AlertDialog"
-        android:layout_width="331dp"
-        android:layout_height="121dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="-10dp"
-        android:layout_marginEnd="53dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:duplicateParentState="true"
-        android:hint="CSC/MAT A67"
+        android:hint="CSC / MAT A67"
         android:textColorHint="#FFFFFF"
         android:theme="@style/Widget.AppTheme.TextInputLayout.FilledBox.Dense"
         app:boxStrokeColor="@color/selector"
@@ -59,9 +283,12 @@
         app:boxStrokeWidthFocused="4dp"
         app:endIconMode="clear_text"
         app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textview_first">
+        app:layout_constraintBottom_toBottomOf="@+id/guideline23"
+        app:layout_constraintEnd_toEndOf="@+id/guideline22"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline21"
+        app:layout_constraintTop_toBottomOf="@id/guideline20"
+        app:layout_constraintVertical_bias="1.0">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/A67textInputEditText"
@@ -79,11 +306,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/A08textInputLayout"
         style="@android:style/Holo.ButtonBar.AlertDialog"
-        android:layout_width="331dp"
-        android:layout_height="121dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="-25dp"
-        android:layout_marginEnd="53dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:duplicateParentState="true"
         android:hint="CSC A08"
         android:textColorHint="#FFFFFF"
@@ -93,9 +317,11 @@
         app:boxStrokeWidthFocused="4dp"
         app:endIconMode="clear_text"
         app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/A67textInputLayout">
+        app:layout_constraintEnd_toEndOf="@+id/guideline26"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline27"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintTop_toBottomOf="@id/guideline24">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/A08textInputEditText"
@@ -110,14 +336,11 @@
             app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
+   <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/A48textInputLayout"
         style="@android:style/Holo.ButtonBar.AlertDialog"
-        android:layout_width="331dp"
-        android:layout_height="121dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="-25dp"
-        android:layout_marginEnd="53dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:duplicateParentState="true"
         android:hint="CSC A48"
         android:textColorHint="#FFFFFF"
@@ -127,9 +350,11 @@
         app:boxStrokeWidthFocused="4dp"
         app:endIconMode="clear_text"
         app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/A08textInputLayout">
+        app:layout_constraintEnd_toEndOf="@+id/guideline30"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline29"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline31"
+        app:layout_constraintTop_toBottomOf="@id/guideline28">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/A48textInputEditText"
@@ -147,11 +372,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/A22textInputLayout"
         style="@android:style/Holo.ButtonBar.AlertDialog"
-        android:layout_width="331dp"
-        android:layout_height="121dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="-25dp"
-        android:layout_marginEnd="53dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:duplicateParentState="true"
         android:hint="MAT A22"
         android:textColorHint="#FFFFFF"
@@ -161,9 +383,11 @@
         app:boxStrokeWidthFocused="4dp"
         app:endIconMode="clear_text"
         app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/A48textInputLayout">
+        app:layout_constraintEnd_toEndOf="@+id/guideline34"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline33"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline35"
+        app:layout_constraintTop_toBottomOf="@id/guideline32">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/A22textInputEditText"
@@ -181,11 +405,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/A31textInputLayout"
         style="@android:style/Holo.ButtonBar.AlertDialog"
-        android:layout_width="331dp"
-        android:layout_height="121dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="-25dp"
-        android:layout_marginEnd="53dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:duplicateParentState="true"
         android:hint="MAT A31"
         android:textColorHint="#FFFFFF"
@@ -195,9 +416,11 @@
         app:boxStrokeWidthFocused="4dp"
         app:endIconMode="clear_text"
         app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/A22textInputLayout">
+        app:layout_constraintEnd_toEndOf="@+id/guideline38"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline39"
+        app:layout_constraintStart_toStartOf="@+id/guideline37"
+        app:layout_constraintTop_toBottomOf="@id/guideline36">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/A31textInputEditText"
@@ -215,11 +438,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/A37textInputLayout"
         style="@android:style/Holo.ButtonBar.AlertDialog"
-        android:layout_width="331dp"
-        android:layout_height="121dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="-25dp"
-        android:layout_marginEnd="53dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:duplicateParentState="true"
         android:hint="MAT A37"
         android:textColorHint="#FFFFFF"
@@ -229,11 +449,13 @@
         app:boxStrokeWidthFocused="4dp"
         app:endIconMode="clear_text"
         app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/A31textInputLayout">
+        app:layout_constraintEnd_toEndOf="@+id/guideline42"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline43"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline41"
+        app:layout_constraintTop_toBottomOf="@id/guideline40">
 
-        <com.google.android.material.textfield.TextInputEditText
+    <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/A37textInputEditText"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -249,20 +471,21 @@
 
     <Button
         android:id="@+id/gradesButton"
-        android:layout_width="328dp"
+        android:layout_width="0dp"
         android:layout_height="77dp"
-        android:layout_marginTop="-25dp"
-        android:layout_marginBottom="45dp"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeMinTextSize="25sp"
+        android:autoSizeStepGranularity="2sp"
+        android:autoSizeTextType="uniform"
         android:backgroundTint="#013A6F"
         android:fontFamily="@font/roboto_bold"
-        android:text="Calculate Grades"
-        android:textSize="33sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.385"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/A37textInputLayout"
-        app:layout_constraintVertical_bias="0.074" />
+        android:text="Calculate"
+        app:layout_constraintBottom_toBottomOf="@id/guideline47"
+        app:layout_constraintEnd_toEndOf="@id/guideline46"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/guideline45"
+        app:layout_constraintTop_toBottomOf="@id/guideline44"
+        app:layout_constraintVertical_bias="0.553" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

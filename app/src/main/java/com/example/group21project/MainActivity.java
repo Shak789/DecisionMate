@@ -11,7 +11,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
 
-        // Use FragmentManager to add MainFragment to the activity
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fragment_container, new MainFragment())
                 .commit();

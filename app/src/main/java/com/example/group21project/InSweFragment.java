@@ -22,6 +22,8 @@ public class InSweFragment extends Fragment {
 
     private int input = 0;
     private double[] inputs = new double[6];
+    private boolean range = true;
+
 
     @Nullable
     @Override
@@ -137,7 +139,7 @@ public class InSweFragment extends Fragment {
             } else if (((gpaValues[0] < 1.7 && gpaValues[3] < 1.7) || (gpaValues[0] < 1.7 && gpaValues[5] < 1.7) || (gpaValues[3] < 1.7 && gpaValues[5] < 1.7))) {
                 StyleableToast.makeText(requireContext(), "You must have a grade of at least 60 in two of CSC/MAT A67, MAT A22, MAT A37", Toast.LENGTH_SHORT, R.style.failtoast).show();
             } else if (pass == false) {
-                StyleableToast.makeText(requireContext(), "You must have passed all courses required for this POSt", Toast.LENGTH_SHORT, R.style.failtoast).show();
+                StyleableToast.makeText(requireContext(), "You must have passed all courses required for this POSt.", Toast.LENGTH_SHORT, R.style.failtoast).show();
             }
 
         } else {
@@ -170,6 +172,7 @@ public class InSweFragment extends Fragment {
                         til.setErrorEnabled(true);
                         til.setError("Please enter a grade from 0 to 100");
                         til.setErrorTextAppearance(R.style.ErrorAppearance);
+                        editText.getText().clear();
                     } else if (Integer.parseInt(editText.getText().toString()) <= 100) {
                         til.setErrorEnabled(false);
                         inputs[index] = Integer.parseInt(editText.getText().toString());

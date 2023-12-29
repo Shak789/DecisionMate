@@ -42,7 +42,7 @@ public class CorrectCourses1Fragment extends Fragment {
     }
 
     public void openInSwe() {
-        Fragment someFragment = new InSweFragment();
+        Fragment someFragment = new GradeRequirementsFragment();
         FragmentTransaction transaction = requireActivity().getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.fragment_container, someFragment);
         transaction.addToBackStack(null);

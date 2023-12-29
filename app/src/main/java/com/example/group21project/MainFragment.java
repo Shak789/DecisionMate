@@ -21,16 +21,16 @@ public class MainFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         View view = inflater.inflate(R.layout.activity_main, container, false);
 
         Toolbar toolbar = view.findViewById(R.id.my_toolbar);
         TextView mTitle = toolbar.findViewById(R.id.toolbar_title);
 
-        ((AppCompatActivity) requireActivity()).setSupportActionBar(toolbar);
+        /*((AppCompatActivity) requireActivity()).setSupportActionBar(toolbar);
         mTitle.setText(toolbar.getTitle());
 
-        ((AppCompatActivity) requireActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
+        ((AppCompatActivity) requireActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);*/
 
         button = view.findViewById(R.id.buttonFirst);
         button.setOnClickListener(new View.OnClickListener() {

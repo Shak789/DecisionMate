@@ -7,7 +7,6 @@
     tools:context=".SecondFragment"
     android:background="@drawable/gradient_background"
     >
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,9 +14,7 @@
         android:paddingLeft="0dp"
         android:paddingTop="0dp"
         android:paddingEnd="0dp"
-        android:paddingRight="0dp"
-        tools:layout_editor_absoluteX="-43dp"
-        tools:layout_editor_absoluteY="-16dp">
+        android:paddingRight="0dp">
 
 
         <include
@@ -45,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.05" />
+            app:layout_constraintGuide_percent="0.07" />
 
 
         <androidx.constraintlayout.widget.Guideline
@@ -67,14 +64,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.3" />
+            app:layout_constraintGuide_percent="0.26" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.28" />
+            app:layout_constraintGuide_percent="0.27" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline21"
@@ -88,21 +85,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.8" />
+            app:layout_constraintGuide_percent="0.95" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.375" />
+            app:layout_constraintGuide_percent="0.48" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.36" />
+            app:layout_constraintGuide_percent="0.46" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline25"
@@ -116,14 +113,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.8" />
+            app:layout_constraintGuide_percent="0.95" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.43" />
+            app:layout_constraintGuide_percent="0.555" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline28"
@@ -137,14 +134,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.05" />
+            app:layout_constraintGuide_percent="0.21" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.45" />
+            app:layout_constraintGuide_percent="0.77" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline31"
@@ -158,7 +155,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.78" />
+            app:layout_constraintGuide_percent="0.86" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline33"
@@ -186,7 +183,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.45" />
+            app:layout_constraintGuide_percent="0.57" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline37"
@@ -200,21 +197,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.8" />
+            app:layout_constraintGuide_percent="0.95" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline39"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.52" />
+            app:layout_constraintGuide_percent="0.75" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline40"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.54" />
+            app:layout_constraintGuide_percent="0.745" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline41"
@@ -228,70 +225,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.8" />
+            app:layout_constraintGuide_percent="0.95" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline43"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.61" />
+            app:layout_constraintGuide_percent="0.85" />
 
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline44"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.63" />
 
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline45"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.05" />
 
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline46"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.8" />
 
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline47"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.7" />
-
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline48"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.72" />
-
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline49"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.05" />
-
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline50"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.8" />
-
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline51"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.79" />
 
 
 
@@ -299,19 +244,19 @@
             android:id="@+id/textview_first"
             android:layout_width="0sp"
             android:layout_height="0sp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Below are the requirements for this subject POSt:"
+            android:textColor="@color/white"
             android:autoSizeMaxTextSize="100sp"
             android:autoSizeMinTextSize="12sp"
             android:autoSizeStepGranularity="2sp"
             android:autoSizeTextType="uniform"
-            android:fontFamily="@font/roboto_bold"
-            android:gravity="center"
-            android:text="Have you Taken / Planning to Take These Courses?"
-            android:textColor="@color/white"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@id/guideline3"
             app:layout_constraintEnd_toEndOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="@+id/guideline1"
-            app:layout_constraintTop_toBottomOf="@id/guideline" />
+            app:layout_constraintTop_toBottomOf="@id/guideline"/>
 
         <TextView
             android:id="@+id/textview_second"
@@ -323,15 +268,15 @@
             android:autoSizeStepGranularity="2sp"
             android:autoSizeTextType="uniform"
             android:fontFamily="@font/roboto_bold"
-            android:text="‣ CSC / MAT A67"
+            android:text="‣ GPA of at least 2.5 in the following courses: CSC/MAT A67, CSC A48, MAT A22, MAT A31, MAT A37"
             android:textColor="#3BFF7C"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/guideline23"
             app:layout_constraintEnd_toEndOf="@+id/guideline22"
-            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/guideline21"
-            app:layout_constraintTop_toBottomOf="@id/guideline20" />
-
+            app:layout_constraintTop_toBottomOf="@id/guideline20"
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/textview_third"
@@ -343,15 +288,14 @@
             android:autoSizeStepGranularity="2sp"
             android:autoSizeTextType="uniform"
             android:fontFamily="@font/roboto_bold"
-            android:text="‣ CSC A08"
+            android:text="‣ A grade of at least B (73%) in CSC A48"
             android:textColor="#3BFF7C"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/guideline27"
             app:layout_constraintEnd_toEndOf="@+id/guideline26"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="@+id/guideline25"
-            app:layout_constraintTop_toBottomOf="@id/guideline24"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintTop_toBottomOf="@id/guideline24" />
 
         <TextView
             android:id="@+id/textview_fourth"
@@ -363,15 +307,14 @@
             android:autoSizeStepGranularity="2sp"
             android:autoSizeTextType="uniform"
             android:fontFamily="@font/roboto_bold"
-            android:text="‣ CSC A48"
+            android:text="‣ A grade of at least C- (60%) in two of the following courses CSC / MAT A67, MAT A22, MAT A37"
             android:textColor="#3BFF7C"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/guideline39"
             app:layout_constraintEnd_toEndOf="@+id/guideline38"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="@+id/guideline37"
-            app:layout_constraintTop_toBottomOf="@id/guideline36"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintTop_toBottomOf="@id/guideline36" />
 
         <TextView
             android:id="@+id/textview_fifth"
@@ -383,86 +326,191 @@
             android:autoSizeStepGranularity="2sp"
             android:autoSizeTextType="uniform"
             android:fontFamily="@font/roboto_bold"
-            android:text="‣ MAT A22"
+            android:text="‣ A passing grade (at least 50%) in all required courses"
             android:textColor="#3BFF7C"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/guideline43"
             app:layout_constraintEnd_toEndOf="@+id/guideline42"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="@+id/guideline41"
-            app:layout_constraintTop_toBottomOf="@id/guideline40"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintTop_toBottomOf="@id/guideline40" />
 
-        <TextView
-            android:id="@+id/textview_sixth"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:alpha="1"
-            android:autoSizeMaxTextSize="100sp"
-            android:autoSizeMinTextSize="12sp"
-            android:autoSizeStepGranularity="2sp"
-            android:autoSizeTextType="uniform"
-            android:fontFamily="@font/roboto_bold"
-            android:text="‣ MAT A31"
-            android:textColor="#3BFF7C"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/guideline47"
-            app:layout_constraintEnd_toEndOf="@+id/guideline46"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="@+id/guideline45"
-            app:layout_constraintTop_toBottomOf="@id/guideline44"
-            app:layout_constraintVertical_bias="1.0" />
-
-        <TextView
-            android:id="@+id/textview_seventh"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:alpha="1"
-            android:autoSizeMaxTextSize="100sp"
-            android:autoSizeMinTextSize="12sp"
-            android:autoSizeStepGranularity="2sp"
-            android:autoSizeTextType="uniform"
-            android:fontFamily="@font/roboto_bold"
-            android:text="‣ MAT A37"
-            android:textColor="#3BFF7C"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/guideline51"
-            app:layout_constraintEnd_toEndOf="@+id/guideline50"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="@+id/guideline49"
-            app:layout_constraintTop_toBottomOf="@id/guideline48"
-            app:layout_constraintVertical_bias="1.0" />
 
         <Button
-            android:id="@+id/yesbutton"
+            android:id="@+id/continuebutton"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="77dp"
+            android:autoSizeMaxTextSize="100sp"
+            android:autoSizeMinTextSize="25sp"
+            android:autoSizeStepGranularity="2sp"
+            android:autoSizeTextType="uniform"
             android:backgroundTint="#013A6F"
             android:fontFamily="@font/roboto_bold"
-            android:text="Yes"
-            android:textSize="40sp"
+            android:text="Continue"
             app:layout_constraintBottom_toBottomOf="@id/guideline35"
             app:layout_constraintEnd_toEndOf="@id/guideline30"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@id/guideline29"
             app:layout_constraintTop_toBottomOf="@id/guideline32"
-            app:layout_constraintVertical_bias="0.553" />
+            app:layout_constraintVertical_bias="0.642" />
 
-        <Button
-            android:id="@+id/nobutton"
+        <!--<Button
+            android:id="@+id/out"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#013A6F"
             android:fontFamily="@font/roboto_bold"
-            android:text="No"
+            android:text="Out"
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="@id/guideline35"
             app:layout_constraintEnd_toEndOf="@id/guideline34"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@id/guideline33"
             app:layout_constraintTop_toBottomOf="@id/guideline32"
-            app:layout_constraintVertical_bias="0.553" />
+            app:layout_constraintVertical_bias="0.553" />-->
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".SecondFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp">
+
+
+        <include
+            android:id="@+id/my_toolbar"
+            style="@style/ToolbarStyle"
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:padding="0dp"
+            android:paddingStart="0dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textview_first"
+            android:layout_width="382dp"
+            android:layout_height="167dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Below are the requirements for this subject POSt:"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.551"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/my_toolbar" />
+
+        <TextView
+            android:id="@+id/textview_second"
+            android:layout_width="386dp"
+            android:layout_height="248dp"
+            android:layout_marginTop="-13dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:paddingStart="0dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="5dp"
+
+
+            android:text="‣ GPA of at least 2.5 across the following five courses: CSC/MAT A67, CSC A48, MAT A22, MAT A31, MAT A37."
+            android:textAlignment="viewStart"
+            android:textColor="#3BFF7C"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textview_first" />
+
+        <TextView
+            android:id="@+id/textview_second3"
+            android:layout_width="369dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="-27dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:paddingStart="0dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp"
+
+            android:paddingRight="5dp"
+            android:text="‣ A grade of at least B (73%) in CSC A48."
+            android:textAlignment="viewStart"
+            android:textColor="#3BFF7C"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.309"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textview_second" />
+
+        <TextView
+            android:id="@+id/textview_cminus"
+            android:layout_width="374dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="-5dp"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingStart="0dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="0dp"
+
+            android:paddingEnd="0dp"
+            android:paddingRight="5dp"
+            android:text="‣ A grade of at least C- (60%) in two of CSC/MAT A67, MAT A22, MAT A37"
+            android:textAlignment="viewStart"
+            android:textColor="#3BFF7C"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.351"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textview_second3" />
+
+        <Button
+            android:id="@+id/continuebutton"
+            android:layout_width="237dp"
+            android:layout_height="81dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#013A6F"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Continue"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textview_cminus" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>-->
