@@ -13,16 +13,16 @@
     android:paddingTop="0dp"
     android:paddingBottom="0dp">
 
-<TextView
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-    android:fontFamily="@font/roboto_bold"
-    android:gravity="center"
-    android:text="DecisionMate: CMS POSt"
-    android:textColor="@android:color/white"
-    android:textSize="28.3sp"
-    android:textStyle="bold"
-android:id="@+id/toolbar_title" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="CS Specialist"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/toolbar_title" />
 
 </androidx.appcompat.widget.Toolbar>
 

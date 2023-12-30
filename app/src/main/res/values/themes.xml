@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.Group21Project" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.Group21Project" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
@@ -8,7 +8,7 @@
         <item name="colorOnSecondary">@color/black</item>
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
     </style>
-    <style name="Base.Theme.Group21Project" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Group21Project" parent="Theme.Material3.Light.NoActionBar">
 
     </style>
         <style name="ToolbarStyle">
@@ -32,7 +32,7 @@
         <item name="colorPrimary">#FFFFFF</item>
         <item name="android:textStyle">bold</item> <!-- Set your desired text style -->
         <item name="android:fontFamily">@font/roboto_bold</item>
-        <item name="android:textSize">28dp</item>
+        <item name="android:textSize">@dimen/text_size_box</item>
 
     </style>
 
@@ -40,7 +40,7 @@
         <item name="android:textColor">#FF0000</item> <!-- Set your desired text color -->
         <item name="android:textStyle">bold</item> <!-- Set your desired text style -->
         <item name="android:fontFamily">@font/roboto_bold</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/text_size_error</item>
         <!-- You can add more styling attributes as needed -->
     </style>
 
@@ -63,10 +63,5 @@
         <item name="stLength">LONG</item> LONG or SHORT
         <item name="stGravity">center</item> top or center
     </style>
-
-
-
-
-
 
 </resources>

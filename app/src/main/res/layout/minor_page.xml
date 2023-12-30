@@ -25,9 +25,9 @@ tools:context=".SecondFragment">
         android:id="@+id/my_toolbar"
         style="@style/ToolbarStyle"
         layout="@layout/toolbar"
+        android:padding="0dp"
         android:layout_width="match_parent"
         android:layout_height="54dp"
-        android:padding="0dp"
         android:paddingStart="0dp"
         android:paddingLeft="0dp"
         android:paddingTop="0dp"
@@ -79,8 +79,8 @@ tools:context=".SecondFragment">
 
     <ImageView
         android:id="@+id/imageview_first"
-        android:layout_width="427dp"
-        android:layout_height="914dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:alpha="0.4"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"

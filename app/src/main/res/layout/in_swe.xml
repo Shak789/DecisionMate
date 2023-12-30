@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.07" />
+        app:layout_constraintGuide_percent="0.06" />
 
 
     <androidx.constraintlayout.widget.Guideline
@@ -52,14 +52,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.16" />
+        app:layout_constraintGuide_percent="0.14" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.155" />
+        app:layout_constraintGuide_percent="0.13" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline21"
@@ -80,14 +80,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.28" />
+        app:layout_constraintGuide_percent="0.26" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.275" />
+        app:layout_constraintGuide_percent="0.26" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline25"
@@ -108,14 +108,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.41" />
+        app:layout_constraintGuide_percent="0.43" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.395" />
+        app:layout_constraintGuide_percent="0.39" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline29"
@@ -143,7 +143,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.515" />
+        app:layout_constraintGuide_percent="0.52" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline33"
@@ -171,7 +171,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.635" />
+        app:layout_constraintGuide_percent="0.65" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline37"
@@ -199,7 +199,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.76" />
+        app:layout_constraintGuide_percent="0.78" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline41"
@@ -220,14 +220,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.9" />
+        app:layout_constraintGuide_percent="0.91" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline44"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.9" />
+        app:layout_constraintGuide_percent="0.91" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline45"
@@ -248,7 +248,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.96" />
+        app:layout_constraintGuide_percent="0.99" />
 
     <TextView
         android:id="@+id/textview_first"
@@ -293,7 +293,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/A67textInputEditText"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:inputType="number"
             android:textColor="#FFFFFF"
             android:textCursorDrawable="@drawable/custom_cursor"
@@ -326,13 +326,15 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/A08textInputEditText"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:inputType="number"
             android:textColor="#FFFFFF"
             android:textCursorDrawable="@drawable/custom_cursor"
+
             android:theme="@style/Widget.AppTheme.TextInputLayout.FilledBox.Dense"
             app:boxStrokeColor="@color/selector"
             app:boxStrokeWidth="4dp"
+
             app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -356,17 +358,17 @@
         app:layout_constraintBottom_toBottomOf="@+id/guideline31"
         app:layout_constraintTop_toBottomOf="@id/guideline28">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/A48textInputEditText"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:inputType="number"
-            android:textColor="#FFFFFF"
-            android:textCursorDrawable="@drawable/custom_cursor"
-            android:theme="@style/Widget.AppTheme.TextInputLayout.FilledBox.Dense"
-            app:boxStrokeColor="@color/selector"
-            app:boxStrokeWidth="4dp"
-            app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
+       <com.google.android.material.textfield.TextInputEditText
+           android:id="@+id/A48textInputEditText"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:inputType="number"
+           android:textColor="#FFFFFF"
+           android:textCursorDrawable="@drawable/custom_cursor"
+           android:theme="@style/Widget.AppTheme.TextInputLayout.FilledBox.Dense"
+           app:boxStrokeColor="@color/selector"
+           app:boxStrokeWidth="4dp"
+           app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -392,7 +394,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/A22textInputEditText"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:inputType="number"
             android:textColor="#FFFFFF"
             android:textCursorDrawable="@drawable/custom_cursor"
@@ -425,7 +427,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/A31textInputEditText"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:inputType="number"
             android:textColor="#FFFFFF"
             android:textCursorDrawable="@drawable/custom_cursor"
@@ -455,10 +457,10 @@
         app:layout_constraintStart_toStartOf="@+id/guideline41"
         app:layout_constraintTop_toBottomOf="@id/guideline40">
 
-    <com.google.android.material.textfield.TextInputEditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/A37textInputEditText"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:inputType="number"
             android:textColor="#FFFFFF"
             android:textCursorDrawable="@drawable/custom_cursor"
@@ -472,7 +474,8 @@
     <Button
         android:id="@+id/gradesButton"
         android:layout_width="0dp"
-        android:layout_height="77dp"
+        android:layout_height="0dp"
+
         android:autoSizeMaxTextSize="100sp"
         android:autoSizeMinTextSize="25sp"
         android:autoSizeStepGranularity="2sp"

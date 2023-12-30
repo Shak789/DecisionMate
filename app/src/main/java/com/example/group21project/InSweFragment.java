@@ -1,5 +1,6 @@
 package com.example.group21project;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -146,7 +147,6 @@ public class InSweFragment extends Fragment {
             StyleableToast.makeText(requireContext(), "Please fill in all fields with valid grades", Toast.LENGTH_SHORT, R.style.failtoast).show();
         }
 
-
     }
 
 
@@ -168,12 +168,12 @@ public class InSweFragment extends Fragment {
 
                 if (editText.getText().toString().trim().isEmpty() == false) {
 
-                    if (Integer.parseInt(editText.getText().toString()) > 100) {
+                    if (Integer.parseInt(editText.getText().toString()) > 100 || Integer.parseInt(editText.getText().toString()) < 0) {
                         til.setErrorEnabled(true);
                         til.setError("Please enter a grade from 0 to 100");
                         til.setErrorTextAppearance(R.style.ErrorAppearance);
                         editText.getText().clear();
-                    } else if (Integer.parseInt(editText.getText().toString()) <= 100) {
+                    } else if (Integer.parseInt(editText.getText().toString()) <= 100 && Integer.parseInt(editText.getText().toString()) >= 0) {
                         til.setErrorEnabled(false);
                         inputs[index] = Integer.parseInt(editText.getText().toString());
                     }

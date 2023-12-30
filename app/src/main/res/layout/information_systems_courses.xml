@@ -15,9 +15,7 @@
         android:paddingLeft="0dp"
         android:paddingTop="0dp"
         android:paddingEnd="0dp"
-        android:paddingRight="0dp"
-        tools:layout_editor_absoluteX="-43dp"
-        tools:layout_editor_absoluteY="-16dp">
+        android:paddingRight="0dp">
 
 
         <include

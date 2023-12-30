@@ -38,8 +38,8 @@
 
         <ImageView
             android:id="@+id/imageview_first"
-            android:layout_width="427dp"
-            android:layout_height="914dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:alpha="0.4"
             android:scaleType="centerCrop"
             app:layout_constraintBottom_toBottomOf="parent"

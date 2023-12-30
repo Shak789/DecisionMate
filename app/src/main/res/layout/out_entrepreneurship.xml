@@ -76,7 +76,7 @@
             android:autoSizeTextType="uniform"
             android:fontFamily="@font/roboto_bold"
             android:gravity="center"
-            android:text="Admission into this stream will only take place during the first round of POSt in April. You must apply with competitive grades (preferably above 80) and submit a supplementary application form, which is available on the CMS website."
+            android:text="Admission into this stream will only take place during the first round of POSt in April. You must apply with competitive grades and submit a supplementary application form, which is available on the CMS website."
             android:textColor="@color/white"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/guideline4"
