@@ -1,5 +1,3 @@
-Welcome to DecisionMate, your companion for navigating the UTSC CMS POSt system.
-
 ## Overview
 
 Being a first-year student in UTSC CMS programs is already difficult enough. Students are transitioning from high school, dealing with heavier workloads and learning challenging concepts in their courses. It can even be more stressful for students to determine if they have qualified for POSt.
