@@ -17,6 +17,9 @@ As of January 2024, this app is currently in **beta version**. It only provides 
 - **Check Admission Information for In-Stream and Out-of-Stream Students**
 <img src="In _stream_out_stream.jpg" alt="Quick Evaluation" width="165px" />
 
+- **Check Admission Information for In-Stream and Out-of-Stream Students**
+
+
 
 
 
