@@ -14,7 +14,9 @@ As of January 2024, this app is currently in **beta version**. It only provides 
 - **Verify if you Have the Right Courses for your POSt**
 <img src="Courses.jpg" alt="Quick Evaluation" width="165px" />
 
-- **Check Admission Information for In-Stream and Out-of-Stream Students**
+- **Check Admission Information for In-Stream and Out-of-Stream Students**\
+<img src="In_stream_out.jpg" alt="Quick Evaluation" width="165px" />
+
 
 
 
