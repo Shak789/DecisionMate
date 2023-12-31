@@ -11,8 +11,11 @@ As of January 2024, this app is currently in **beta version**. It only provides 
 - **Determine if you Qualify for all CS Specialist, Major and Minor Programs**
 <img src="Qualify_CS.jpg" alt="Quick Evaluation" width="165px" />
 
-- **Determine if you Have the Right Courses for your POSt**
+- **Verify if you Have the Right Courses for your POSt**
 <img src="Courses.jpg" alt="Quick Evaluation" width="165px" />
+
+- **Check Admission Information for In-Stream and Out-of-Stream Students**
+
 
 
 
