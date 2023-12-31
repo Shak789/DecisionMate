@@ -37,8 +37,8 @@ If you encounter any issues or have suggestions for improvement, please leave a 
 
 ## Technologies Used
 
-  - [Android Studio](https://developer.android.com/studio)
-  - [Java](https://www.java.com/)
+<i class="devicon-androidstudio-plain-wordmark"></i>
+- [Java](https://www.java.com/) ![Java Icon](url/to/java_icon.png)
 
 
 
