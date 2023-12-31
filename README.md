@@ -23,7 +23,7 @@ As of January 2024, this app is currently in **beta version**. It only provides 
 ## Getting Started
 
 1. **Download the App:**
-- The app will be available soon on the Google Play Store.
+- The app will soon be available on the Google Play Store.
 
 2. **Usage:**
 - Open the app, answer the questions about your chosen POSt and input your grades if necessary.
