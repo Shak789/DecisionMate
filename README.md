@@ -5,3 +5,9 @@ Being a first-year Computer and Mathematical Sciences (CMS) student at the Unive
 Therefore, I developed DecisionMate, which is designed to assist UTSC CMS students in determining their eligibility for POSt. The app provides a user-friendly interface where students answer simple questions to determine if they are eligible for various CMS programs. They can also input thier marks to check if they meet grade requirements for differents program. This makes life easier for students because the main information about qualifying for POSt can be found in one place, and they may use the UTSC CMS webiste if they would like to explore programs or courses further.
 
 As of January 2024, this app is currently in **beta version**. It only provides information about CS POSt. However, I will be updating the app for the Mathematics and Statistics programs soon.
+
+## Features
+
+- **Determine if you Qualify for all CS Programs**
+
+
