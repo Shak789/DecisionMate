@@ -35,6 +35,11 @@ As of January 2024, this app is currently in **beta version**. It only provides 
 
 If you encounter any issues or have suggestions for improvement, please leave a review or reach out to me at shakjivraj87@gmail.com.
 
+## Technologies Used
+
+  - [Android Studio](https://developer.android.com/studio)
+  - [Java](https://www.java.com/)
+
 
 
 
